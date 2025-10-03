@@ -5,11 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-
+<br>
 <body>
-    <div class="main">
+    <form action = "process.php" method = "post">
+        <div>
+           <label>Search</label>
+           <input type = "text" name = "search">
+        </div>
+        <br>
+        <div>
+           <label>FAQ</label>
+           <input type = "text" name = "faq">
+        </div>
+        <br>
+
+        <div>
+            <label>Travel to</label>
+            <select>name= "To">
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Gdansk">Gdansk</option>
+                <option value="Oslo">Oslo</option>
+                <option value="Copenhagen">Copenhagen</option>
+                <option value="Stockholm">Stockholm</option>
+            </select>
+             
+
+            <label>Travel From</label>
+            <select>name= "From">
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Gdansk">Gdansk</option>
+                <option value="Oslo">Oslo</option>
+                <option value="Copenhagen">Copenhagen</option>
+                <option value="Stockholm">Stockholm</option>
+            </select>
+
+        
+           
+
+            <label>Number of passengers</label>
+            <input type = "number" name = "passengers" value = 50>
+        
+           
+        
+            <label>Date</label>
+            <input type = "date" name = "date">
+        </div>
+        <br>
+        <input type = "submit" value = "Submit">   
+    </form>
+    <br>
+
+
+    <div class="first">
         <h2 class="title">Header Logo</h2>
 
 
@@ -24,6 +73,8 @@
             rel="noopener noreferrer">Link 3</a>
 
     </div>
+
+    
 
     <div class="second">
         <div class="inner-cont">
@@ -46,9 +97,28 @@
         <div class="box"></div>;
         <div class="box"></div>;
     </div>
+    <br
+
+    <br
     
 
-
+    <br>
+    <table>
+        <thead></thead>
+            <tr>
+                <th>Help</th>
+               
+                <th>Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>//////</td>
+               
+                <td>/////</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
