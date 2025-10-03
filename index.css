@@ -1,64 +1,87 @@
-.main {
+.first {
     display: flex;
-    justify-content: flex-end;
     align-items: baseline;
-    background-color:  #a82beb;
-    height: 250px;
-    border-radius: 10px 10px 0 0;
-}
-
-.title {
-    margin-right: 35%;   
-    color: rgb(133, 211, 234);  
-}
-
-.l1,
-.l2,
-.l3 {
+    justify-content: end;
+    background-image: url("IMG_7768.JPG");
+    height: 350px; 
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
     
-    margin-right: 10%;
-    color: rgb(133, 211, 234);
+    z-index: 1; /* make sure it's on top */
+    position: relative; /* needed for z-index */
+    
+    
+    
 }
 
 
+    .title {
+        margin-right: 570px;   
+        color: rgb(133, 211, 234); 
+        
+        
+    }
+
+    .l1,
+    .l2,
+    .l3 {      
+        margin-right: 140px;
+        color: rgb(133, 211, 234);
+}
+
+/*.blur-line {
+    height: 5px;
+    background: linear-gradient(to bottom, rgba(105, 144, 187, 0.5), rgba(105, 144, 187, 0.5));
+    filter: blur(1px);
+    background: linear-gradient(to top, rgba(105, 144, 187, 0.5), rgba(105, 144, 187, 0.5));
+    filter: blur(1px);
+}*/
 
 .second {
     display: flex;
-    background-color: #a82beb;
-    height: 300px;
-    border-radius: 0px 0px 10px 10px;
+    background-image: url("IMG_7768.JPG");
+    background-size: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    gap:220px;
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
     
-
-}
-
-.image {
-   
-     
-}
-
-.inner-cont {
+    z-index: 1;
     position: relative;
-    left: 7%;
-    margin-right: 11%; 
-}
-
-
-.head {
     
-    color: whitesmoke
-}
-
-.txt {
-    font-size: 18px;
+ 
+    
+    
+    
    
-    color: whitesmoke
+ 
+   
 }
 
-.but {
-    background-color: rgb(133, 211, 234);
-    border-radius: 10px;
+    .image { 
+        margin-top: 3%;   
+    }
+    .inner-cont {
+        position: relative;
+        left: 7%;
+        margin-right: 11%; 
+    }
+        .head {       
+            color: whitesmoke
+        }
 
-}
+        .txt {
+            font-size: 18px;
+            color: whitesmoke
+        }
+
+        .but {
+            background-color: rgb(133, 211, 234);
+            border-radius: 10px;
+        }
 
 #txt {
     font-size: larger;
@@ -72,10 +95,14 @@
     align-items: baseline;
     justify-content: center;
     gap:8px
+
 }
-.box {
-    width: 250px;
-    height: 100px;
-    border: 3px solid rgb(3, 133, 148);
-    border-radius: 10px; 
-}
+
+
+
+    .box {
+        width: 250px;
+        height: 100px;
+        border: 3px solid rgb(3, 133, 148);
+        border-radius: 10px; 
+    }
